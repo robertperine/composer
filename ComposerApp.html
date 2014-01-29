@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.avatar{
+  width: 80px;
+  background: url(img/twain.jpg) no-repeat;
+}
+
+h2 {
+  font-family: "adelle";
+  }
+
+
+[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  color: gray;
+  
+}
+
+/* */
+
+div[contenteditable=true] {
+ border-bottom: 0px dashed #ccc;
+  width: 100%;
+  
+  padding: 5px;
+  margin-bottom: 15px;
+
+}
+
+pre {
+  background:#EEE;
+  padding:5px;
+  width: 290px;
+}
+
+h5{
+  margin-top: 10px;
+}
+
+.fatpadding {
+  
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+</style>
+
+<head>
+    <title>Demand Media Studios</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+      
+<script type="text/javascript" src="//use.typekit.net/pvg8tbf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+
+<body> 
+
+    <div class="container">
+      <div class="row-fluid">
+        <div class="container span12">
+          <div class="fatpadding">
+            <h2>How to Bake a Cake</h2>
+            <div class="avatar"></div>
+    
+               <a href="#"><i class="icon-picture"></i> Add a Hero Image</a> 
+               <hr>
+              
+                <h5 contenteditable="true" >Introduction </h5>   
+                <div contenteditable="true" placeholder="Add a 50-100 word intro here..."></div>
+    
+                <h5>Things You'll Need</h5>
+                <div contenteditable="true" placeholder="Add each thing you'll need on a new line..."></div>    
+    
+                <h5 contenteditable="true" placeholder="Add a subhead here..."></h4>
+                <div contenteditable="true" id="content" placeholder="Add a section here..."></div>
+    
+                <h5 contenteditable="true" placeholder="Add a subhead here..."></h4>
+                <div contenteditable="true" id="content" placeholder="Add a section here..."></div>
+
+                <h5 contenteditable="true" placeholder="Add a subhead here..."></h4>
+                <div contenteditable="true" id="content" placeholder="Add a section here..."></div>
+
+                <h5>Tips and Warnings</h5>
+                <div contenteditable="true" placeholder="Add each tip or warning on a new line here..."></div>    
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/theme.js"></script>
+
+
+</body>
+</html>
